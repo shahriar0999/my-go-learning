@@ -8,4 +8,9 @@ func main() {
 	fmt.Println("Name:", name)
 	fmt.Println("Age:", age)
 	fmt.Println("Is Student:", isStudent)
+
+	// multiple variable declaration
+	var a, b, c int = 1, 3, 5
+	fmt.Println("a:", a, "b:", b, "c:", c)
 }
+

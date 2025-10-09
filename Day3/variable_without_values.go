@@ -10,4 +10,14 @@ func main() {
 	fmt.Println("Name:", name)            // Default value is ""
 	fmt.Println("Age:", age)              // Default value is 0
 	fmt.Println("Is Student:", isStudent) // Default value is false
+
+	// values assignment after declaration
+	age = 25
+	name = "Shahriar"
+	isStudent = false
+
+	fmt.Println("After assignment:")
+	fmt.Println("Name:", name)
+	fmt.Println("Age:", age)
+	fmt.Println("Is Student:", isStudent)
 }

@@ -20,4 +20,15 @@ func main() {
 	fmt.Println("Name:", name)
 	fmt.Println("Age:", age)
 	fmt.Println("Is Student:", isStudent)
+
+	// variable in block
+	var (
+		city    string
+		country string
+		zipcode int
+	)
+
+	fmt.Println("City:", city) // Default value is ""
+	fmt.Println("Country:", country)
+	fmt.Println("Zipcode:", zipcode) // Default value is 0
 }

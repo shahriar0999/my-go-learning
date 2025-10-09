@@ -1,0 +1,13 @@
+package main
+
+import "fmt"
+
+func main() {
+	var age int        // Declaring an integer variable
+	var name string    // Declaring an string variable
+	var isStudent bool // Declaring a boolean variable
+
+	fmt.Println("Name:", name)            // Default value is ""
+	fmt.Println("Age:", age)              // Default value is 0
+	fmt.Println("Is Student:", isStudent) // Default value is false
+}
